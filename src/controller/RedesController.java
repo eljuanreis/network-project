@@ -110,7 +110,7 @@ public class RedesController {
 				JOptionPane.showMessageDialog(null, linhaToPane.toString());
 			}			
 		} catch (Exception e) {
-			System.err.println(e.getLocalizedMessage());
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro ao executar:" + e.getMessage());
 		}				
 	}
 	
@@ -199,7 +199,7 @@ public class RedesController {
 				JOptionPane.showMessageDialog(null, linhaToPane.toString());
 			}
 		} catch (Exception e) {
-			// TODO: handle exception
+			JOptionPane.showMessageDialog(null, "Ocorreu um erro ao executar:" + e.getMessage());
 		}
 	}
 }
